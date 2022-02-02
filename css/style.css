@@ -447,7 +447,7 @@ end animated height change Header
 
 .custom-main-nav .navbar {background:#000000; padding-top:0; padding-bottom:0; font-size:0.95rem;}
 .custom-main-nav li.nav-item a.nav-link {color:#eeeeee; padding-left:1rem; padding-right:1rem;}
-.custom-main-nav li.nav-item a.nav-link:hover, a.nav-link:focus {color:#ffffff; background:#484848;}
+.custom-main-nav li.nav-item a.nav-link:hover {color:#ffffff; background:#484848;}
 .custom-main-nav .dropdown-menu {border-radius:0; background-color: #484848; border:none; font-size:0.85rem;}
 .custom-main-nav .dropdown-menu li a.dropdown-item {color:#ffffff;}
 .custom-main-nav .dropdown-item:focus, .dropdown-item:hover {color:#ffffff; background:#000000;}
