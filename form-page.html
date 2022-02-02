@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap 5</title>
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/media-query.css">
+	<link rel="stylesheet" href="css/mutilevel-menudropdown.css">
+	<link rel="stylesheet" href="css/mega-menu-dropdown.css">
+	<link rel="stylesheet" href="css/leftside-menu.css">
+    <link rel="stylesheet" href="css/style-carousel.css">
+	<link href="css/bootstrap-datepicker.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="main">
+<div class="container-fluid">
+
+        <div class="row">
+ 
+           
+                <div class="col-md-12 nav-top skipClass d-flex justify-content-end py-1">
+                 <div class="nav-top-access bannerTop">
+                    <ul>
+                      <li>
+                        <a class="skip-cont" href="#maincontent" title="Skip to main content">Skip to main content
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:magnify3();" title="Increase font size">A
+                          <sup>+
+                          </sup>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:magnify2();" title="Reset font size">A
+                          <sup>&nbsp;
+                          </sup>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:magnify1();" title="Decrease font size">A
+                          <sup>-
+                          </sup>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0);" title="Hindi">
+                                                                                  हिंदी में
+                        </a>
+                      </li>
+              
+                    </ul>
+                  </div>
+				  
+				      <div class="color-plate">
+                         <ul>
+				          <li><a href="css/colors/blue-color.css" class="single-color blue-color" title="Blue Theme"></a></li>
+                          <li><a href="css/colors/defaults-color.css" class="single-color defaults-color" title="Default Theme"></a></li>
+                        </ul>
+                     </div>
+				  
+                </div>
+            
+ 
+        </div>
+	
+      </div>
+	  
+	  <header>
+	 
+	 <nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <div class="container-fluid">
+   <a class="navbar-brand" href="index.html">
+    <img src="img/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+	  <!-- <img src="img/emblem-dark-90.png" class="img-fluid me-2" alt=""> -->
+      Bootstrap 5
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     
+      <form class="d-flex ms-auto">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+	 
+		
+    </header> 
+	 
+     	<div class="custom-main-nav sticky-top">
+		 <nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid">
+  
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+	  <span class="navbar-toggler-icon me-2"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      
+		 <li class="nav-item">
+            <a class="nav-link" href="index.html" aria-current="page">Home</a>
+         </li>
+		   <li class="nav-item">
+                            <a class="nav-link" href="inner-page-accordion-nested.html">
+                                Inner Page
+                            </a>
+                        </li>
+						
+						<li class="nav-item">
+                            <a class="nav-link active" href="form-page.html">
+                                form Page
+                            </a>
+                        </li>
+						
+						<li class="nav-item">
+                            <a class="nav-link" href="header.html">
+                                Sticky Header
+                            </a>
+                        </li>
+       
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+           <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> Dropdown item 1 </a></li>
+			  <li><a class="dropdown-item" href="#"> Dropdown item 2 <i class="fas fa-caret-right fa-xs"></i> </a>
+			  	 <ul class="submenu dropdown-menu">
+				    <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+				    <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+				    <li><a class="dropdown-item" href="#">Submenu item 3 <i class="fas fa-caret-right fa-xs"></i> </a>
+				    	<ul class="submenu dropdown-menu">
+						    <li><a class="dropdown-item" href="#">Multi level 1</a></li>
+						    <li><a class="dropdown-item" href="#">Multi level 2</a></li>
+						</ul>
+				    </li>
+				    <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+				    <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+				 </ul>
+			  </li>
+			  <li><a class="dropdown-item" href="#"> Dropdown item 3 </a></li>
+			  <li><a class="dropdown-item" href="#"> Dropdown item 4 </a></li>
+		    </ul>
+        </li>
+		
+		     	<li class="nav-item dropdown has-megamenu">
+				<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Mega menu  </a>
+				<div class="dropdown-menu megamenu" role="menu">
+					<div class="row g-3">
+						<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="title">Title Menu One</h6>
+								<ul class="list-unstyled">
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+						<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="title">Title Menu Two</h6>
+								<ul class="list-unstyled">
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+						<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="title">Title Menu Three</h6>
+								<ul class="list-unstyled">
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div>    
+						<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="title">Title Menu Four</h6>
+								<ul class="list-unstyled">
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+					</div><!-- end row --> 
+				</div> <!-- dropdown-mega-menu.// -->
+			</li>
+			
+  
+      </ul>
+   
+    </div>
+  </div>
+</nav>
+
+</div>
+	
+			<div class="container-fluid py-3">
+			
+			   <div class="row">
+			
+			     <div class="col">
+			
+			           <div class="card h-100">
+                           <h5 class="card-header"><i class="fas fa-coffee"></i> Form Page</h5>
+                           <div class="card-body">
+                                
+								                        <div class="row">
+					
+
+                        <div class="col-md-12">
+                                <h3 class="headTitleCommon">Give Heading Name</h3>
+                        </div>
+						
+                        <div class="col-md-12">
+ 
+                                <form>
+								
+								  <div class="row">       
+						           <div class="col-md-12">
+                                      <h3 class="headTitleCommon">Legend</h3>
+                                  </div>
+						          </div>
+                                    
+                                    <div class="row">
+									   <div class="col-md-12">
+									   <fieldset class="commonLegendForm">
+									   
+									   <legend>Basic Information</legend>
+								
+										      <div class="row gy-2">
+											  
+											   <div class="col-12">
+                                                       <label for="inputAddress" class="form-label">Address</label>
+                                                       <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                                   </div>
+											       <div class="col-md-6">
+                                                       <label for="inputEmail4" class="form-label">Email</label>
+                                                       <input type="email" class="form-control" id="inputEmail4">
+                                                   </div>
+                                                   <div class="col-md-6">
+                                                       <label for="inputPassword4" class="form-label">Password</label>
+                                                       <input type="password" class="form-control" id="inputPassword4">
+                                                   </div>
+                                                  
+											 </div>
+										
+									    </fieldset>
+							           </div>
+									</div>
+									
+									  <div class="row">       
+						           <div class="col-md-12">
+                                      <h3 class="headTitleCommon">Form</h3>
+                                  </div>
+						          </div>
+								  
+								  
+								    <div class="row gy-2 mb-3">
+											  
+										 <div class="col-md-4">
+                                            <label for="inputAddress" class="form-label">Address</label>
+                                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                         </div>
+										 <div class="col-md-4">
+                                            <label for="inputEmail4" class="form-label">Email</label>
+                                            <input type="email" class="form-control" id="inputEmail4">
+                                         </div>
+                                         <div class="col-md-4">
+                                            <label for="inputPassword4" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="inputPassword4">
+                                         </div>
+										 
+										  <div class="col-md-4">
+                                              <label for="inputState" class="form-label">State</label>
+                                              <select id="inputState" class="form-select">
+                                              <option selected>Choose...</option>
+                                              <option>One</option>
+											  <option>Two</option>
+                                              </select>
+                                          </div>
+										  
+										   <div class="col-md-4">
+                                              <label for="formFile" class="form-label">Default file input example</label>
+                                              <input class="form-control" type="file" id="formFile">
+                                          </div>
+										  
+								          <div class="col-md-4  sandbox-container">
+										  <label for="" class="form-label">Date</label>
+										  <div class="input-group">
+                                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-calendar-alt"></i></span>
+                                          <input type="text" class="form-control" placeholder="dd/mm/yyyy">
+                                          </div>
+	                                      </div>
+										
+                                                  
+								     </div>
+									 
+									 <div class="row mb-3">
+									   
+										  <div class="col-lg-6 col-12">
+										   <label for="" class="form-label">HTML 5 Date</label>
+                                            <input type="date" name="date" id="date" value="" class="form-control">
+                                            
+                                        </div>
+									 </div>
+									
+								 
+									
+									  <div class="row">       
+						                  <div class="col-md-12">
+                                              <h3 class="headTitleCommon">Checkbox</h3>
+                                         </div>
+						              </div>
+									  
+									  <div class="row">
+									       <div class="col-md-4">
+										  <label class="form-label" for="">Default checkbox</label>
+										        <div class="form-check">
+                                                   <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                   <label class="form-check-label" for="flexCheckDefault">Default checkbox</label>
+                                                </div>
+                                                <div class="form-check">
+                                                   <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                                   <label class="form-check-label" for="flexCheckChecked">Checked checkbox</label>
+                                                </div>
+										   </div>
+										    <div class="col-md-4">
+										  <label class="form-label" for="">Disabled</label>
+										        <div class="form-check">
+                                                   <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
+                                                   <label class="form-check-label" for="flexCheckDisabled">Default checkbox</label>
+                                                </div>
+                                                <div class="form-check">
+                                                   <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
+                                                   <label class="form-check-label" for="flexCheckCheckedDisabled">Checked checkbox</label>
+                                                </div>
+										   </div>
+										<div class="col-md-4">
+										  <label class="form-label d-flex" for="">Inline</label>
+										        <div class="form-check form-check-inline">
+                                                   <input class="form-check-input" type="checkbox" value="option1" id="inlineCheckbox1">
+                                                  <label class="form-check-label" for="inlineCheckbox1">1</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                   <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                                   <label class="form-check-label" for="inlineCheckbox2">2</label>
+                                                </div>
+												<div class="form-check form-check-inline">
+                                                   <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
+                                                   <label class="form-check-label" for="inlineCheckbox3">3 (disabled)</label>
+                                                </div>
+										   </div>
+									  </div>
+									  
+									    <div class="row">       
+						                  <div class="col-md-12">
+                                              <h3 class="headTitleCommon">Radio</h3>
+                                         </div>
+						              </div>
+									  
+									    <div class="row">  
+										  <div class="col-md-4">
+											 <div class="form-check">
+                                                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                                  <label class="form-check-label" for="exampleRadios1">Default radio</label>
+                                             </div>
+                                             <div class="form-check">
+                                                   <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                                   <label class="form-check-label" for="exampleRadios2">Second default radio</label>
+                                             </div>
+                                             <div class="form-check">
+                                                   <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+                                                   <label class="form-check-label" for="exampleRadios3">Disabled radio</label>
+                                             </div>
+									      </div>
+										  
+										   <div class="col-md-4">
+										    <label class="form-label d-flex" for="">Inline</label>
+										        <div class="form-check form-check-inline">
+                                                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                     <label class="form-check-label" for="inlineRadio1">1</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                    <label class="form-check-label" for="inlineRadio2">2</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
+                                                    <label class="form-check-label" for="inlineRadio3">3 (disabled)</label>
+                                                </div>
+										   </div>
+										    
+										    <div class="col-md-4">
+											    <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                                    <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+                                                </div>
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                                    <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+                                                </div>
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDisabled" disabled>
+                                                    <label class="form-check-label" for="flexSwitchCheckDisabled">Disabled switch checkbox input</label>
+                                                </div>
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled" checked disabled>
+                                                    <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled checked switch checkbox input</label>
+                                                </div>
+											</div>
+										</div>
+									
+                              <div class="row">       
+						           <div class="col-md-12">
+                                      <h3 class="headTitleCommon">Horizontal form</h3>
+                                  </div>
+						      </div>
+							  
+							  <div class="row"> 
+							  
+							       <div class="row mb-3">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3">
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3">
+    </div>
+  </div>
+  <fieldset class="row mb-3">
+    <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+        <label class="form-check-label" for="gridRadios1">
+          First radio
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+        <label class="form-check-label" for="gridRadios2">
+          Second radio
+        </label>
+      </div>
+      <div class="form-check disabled">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+        <label class="form-check-label" for="gridRadios3">
+          Third disabled radio
+        </label>
+      </div>
+    </div>
+  </fieldset>
+  <div class="row mb-3">
+    <div class="col-sm-10 offset-sm-2">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck1">
+        <label class="form-check-label" for="gridCheck1">
+          Example checkbox
+        </label>
+      </div>
+    </div>
+  </div>
+   <div class="row mb-3">
+     <div class="col-md-12">
+  <button type="submit" class="btn btn-primary">Sign in</button>
+  </div>
+  </div>
+								   
+							  </div>
+							  
+                                    <div class="row">
+                                        <div class="col-md-12 commonBtnBack">
+                                            <button type="button" class="btn btn-secondary"><i class="fa fa-arrow-left"></i>Previous</button>
+                                            <button type="submit" class="btn btn-default">Submit</button>
+                                            <button type="button" class="btn btn-secondary">Next<i class="fa fa-arrow-right"></i></button>
+                                        </div>
+                                    </div>
+
+                                </form>
+
+                         
+
+                        </div>
+
+
+                    </div>
+								
+                          </div>
+                        </div> 
+					
+                </div>
+				
+              </div>
+			
+			</div>
+			
+		
+
+				 <!-- footer -->
+     
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-md-3 footer-info">
+            <h3>Bootstrap 5</h3>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+          </div>
+
+          <div class="col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fas fa-angle-right"></i> <a href="#">Home</a></li>
+              <li><i class="fas fa-angle-right"></i> <a href="#">About us</a></li>
+              <li><i class="fas fa-angle-right"></i> <a href="#">Services</a></li>
+              <li><i class="fas fa-angle-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="fas fa-angle-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-md-3 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+                <!--Footer Bottom-->
+
+                 <div class="container-fluid">
+					<div class="row">
+					   <div class="col-md-12 topFooterNav">
+                             <nav class="nav">
+                                   <a class="nav-link" href="#">Link</a>
+                                   <a class="nav-link" href="#">Link</a>
+                                   <a class="nav-link" href="#">Link</a>
+
+                             </nav>
+                        </div>
+		             </div>
+					
+                        <div class="row pt-1">
+						
+                            <div class="col-md-8">
+
+                                <div class="col-md-12">
+                                    <div class="d-block"><small>Last reviewed &amp; updated : 00-00-0000 | Visitors : 00000</small></div>
+									<div class="d-block"><small>Copyright © 2021 XYZ. All Rights Reserved.</small></div>
+                                </div>
+
+								
+                            </div>
+
+                            <div class="col-md-4 text-end">
+							
+                                  <span class="d-block"><small>Designed &amp; Developed by</small></span>
+							      <img src="img/brandLogo.png" alt="TATA Consultancy Services Ltd" title="TATA Consultancy Services Ltd">
+								  
+                             </div>
+
+                        </div>
+                    </div>
+        
+                <!-- footer bottom ends -->
+
+	
+  </footer>
+  <!-- End Footer -->
+		
+    </div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up fa-1x"></i></button>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/mutilevel-menudropdown.js"></script>
+	<script src="js/mega-dropdown-menu.js"></script>
+	<script src="js/hover-dropdown-menu.js"></script>
+	<script src="js/jquery.flexisel.js"></script>
+	<script src="js/bootstrap-datepicker.min.js"></script>
+<!-- start datepicker custom  -->
+	<script>
+	$('.sandbox-container input').datepicker({
+    format: "dd/mm/yyyy",
+    orientation: "bottom auto",
+    autoclose: true,
+    todayHighlight: true
+});
+	</script>
+	<!-- end start datepicker custom   -->
+	
+<!-- flexisel  -->
+<script type="text/javascript">
+$(document).ready(function() {
+      
+    $("#flexiselDemo3").flexisel({
+        visibleItems: 4,
+        itemsToScroll: 1,         
+        autoPlay: {
+            enable: true,
+            interval: 5000,
+            pauseOnHover: true
+        }        
+    });
+ });
+</script>
+<!-- End flexisel  -->
+
+
+<!-- start back to top script -->
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<!-- end back to top script -->
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+.clearout {
+height:20px;
+clear:both;
+}
+
+#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
+display:none;
+}
+
+.nbs-flexisel-container {
+    position:relative;
+    max-width:100%;
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:99999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;   
+    text-align:center;  
+}
+
+.nbs-flexisel-inner {
+    position: relative;
+    overflow: hidden;
+    float:left;
+    width:100%;
+  
+}
+
+.nbs-flexisel-item {
+    float:left;
+    margin:0px;
+    padding:0px;
+    cursor:pointer;
+    position:relative;
+    line-height:0px;
+	background:none;
+	border-radius:8px;
+	box-shadow:none;
+	transition:all 0.5s ease;
+}
+.nbs-flexisel-item img:hover {background:#fff;box-shadow:0px 0px 3px #ccc;}
+.nbs-flexisel-item img {
+    max-width: 100%;
+    cursor: pointer;
+	padding:5px;
+    position: relative;
+}
+
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left
+ {
+    padding:2px 10px 0px 10px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 4;
+    top:40%;
+    background:#fff;
+    color: #fd3519;  
+    background: url(../img/b-left-slide-a.png) 0 0 no-repeat;
+    height: 28px;
+    width: 17px;	
+}
+
+.nbs-flexisel-nav-right{
+	padding:2px 10px 0px 10px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 4;
+    top:40%;
+    background:#fff;
+    color: #fd3519;  
+    background: url(../img/b-right-slide-a.png) 0 0 no-repeat;
+    height: 28px;
+    width: 17px;
+}
+
+.nbs-flexisel-nav-left {
+    left: 10px;
+}
+
+/* .nbs-flexisel-nav-left:before {
+    content:  "\f053";
+	font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+} */
+
+.nbs-flexisel-nav-left.disabled {
+    opacity: 0.4;
+}
+
+.nbs-flexisel-nav-right {
+    right: 5px;    
+}
+
+/* .nbs-flexisel-nav-right:before {
+    content:  "\f054";
+	font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+} */
+
+.nbs-flexisel-nav-right.disabled {
+    opacity: 0.4;
+}

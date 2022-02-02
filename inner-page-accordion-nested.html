@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap 5</title>
+     <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/media-query.css">
+	<link rel="stylesheet" href="css/mutilevel-menudropdown.css">
+	<link rel="stylesheet" href="css/mega-menu-dropdown.css">
+	<link rel="stylesheet" href="css/leftside-menu.css">
+    <link href="css/style-carousel.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="main">
+<div class="container-fluid">
+
+        <div class="row">
+ 
+           
+                <div class="col-md-12 nav-top skipClass d-flex justify-content-end py-1">
+               
+                  <div class="nav-top-access bannerTop">
+                    <ul>
+                      <li>
+                        <a class="skip-cont" href="#maincontent" title="Skip to main content">Skip to main content
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:magnify3();" title="Increase font size">A
+                          <sup>+
+                          </sup>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:magnify2();" title="Reset font size">A
+                          <sup>&nbsp;
+                          </sup>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:magnify1();" title="Decrease font size">A
+                          <sup>-
+                          </sup>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0);" title="Hindi">
+                                                                                  हिंदी में
+                        </a>
+                      </li>
+              
+                    </ul>
+                  </div>
+				  
+				      <div class="color-plate">
+                         <ul>
+				          <li><a href="css/colors/blue-color.css" class="single-color blue-color" title="Blue Theme"></a></li>
+                          <li><a href="css/colors/defaults-color.css" class="single-color defaults-color" title="Default Theme"></a></li>
+                        </ul>
+                     </div>
+				  
+                </div>
+            
+ 
+        </div>
+	
+      </div>
+	  
+ <header>
+	 
+	 <nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+    <img src="img/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+	  <!-- <img src="img/emblem-dark-90.png" class="img-fluid me-2" alt=""> -->
+      Bootstrap 5
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     
+      <form class="d-flex ms-auto">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+	 
+		
+    </header> 
+	 
+     	<div class="custom-main-nav sticky-top">
+		 <nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid">
+  
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+	  <span class="navbar-toggler-icon me-2"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      
+		 <li class="nav-item">
+            <a class="nav-link" href="index.html" aria-current="page">Home</a>
+         </li>
+		   <li class="nav-item">
+                            <a class="nav-link active" href="inner-page-accordion-nested.html">
+                                Inner Page
+                            </a>
+                        </li>
+						
+						<li class="nav-item">
+                            <a class="nav-link" href="form-page.html">
+                                form Page
+                            </a>
+                        </li>
+						
+						<li class="nav-item">
+                            <a class="nav-link" href="header.html">
+                                Sticky Header
+                            </a>
+                        </li>
+       
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+           <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> Dropdown item 1 </a></li>
+			  <li><a class="dropdown-item" href="#"> Dropdown item 2 <i class="fas fa-caret-right fa-xs"></i> </a>
+			  	 <ul class="submenu dropdown-menu">
+				    <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+				    <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+				    <li><a class="dropdown-item" href="#">Submenu item 3 <i class="fas fa-caret-right fa-xs"></i> </a>
+				    	<ul class="submenu dropdown-menu">
+						    <li><a class="dropdown-item" href="#">Multi level 1</a></li>
+						    <li><a class="dropdown-item" href="#">Multi level 2</a></li>
+						</ul>
+				    </li>
+				    <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+				    <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+				 </ul>
+			  </li>
+			  <li><a class="dropdown-item" href="#"> Dropdown item 3 </a></li>
+			  <li><a class="dropdown-item" href="#"> Dropdown item 4 </a></li>
+		    </ul>
+        </li>
+		
+		     	<li class="nav-item dropdown has-megamenu">
+				<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Mega menu  </a>
+				<div class="dropdown-menu megamenu" role="menu">
+					<div class="row g-3">
+						<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="text-white">Title Menu One</h6>
+								<ul class="list-unstyled">
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+						<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="text-white">Title Menu Two</h6>
+								<ul class="list-unstyled">
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+						<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="text-white">Title Menu Three</h6>
+								<ul class="list-unstyled">
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div>    
+						<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="text-white">Title Menu Four</h6>
+								<ul class="list-unstyled">
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+									<li><a href="#">Custom Menu</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+					</div><!-- end row --> 
+				</div> <!-- dropdown-mega-menu.// -->
+			</li>
+	
+  
+      </ul>
+   
+    </div>
+  </div>
+</nav>
+
+</div>
+	
+			<div class="container-fluid py-3">
+			
+			      <div class="row">
+			
+			         <div class="col">
+			              
+						   <div class="card h-100">
+                           <h5 class="card-header"><i class="fas fa-coffee"></i> Inner Page</h5>
+                           <div class="card-body">
+                                
+								<div class="row">
+			                                        
+							     
+								 <div class="col-md-3">
+								 
+					               <div class="row">
+								   
+								     <div class="col-md-12">
+				        <div class="card h-100">
+                           <h5 class="card-header"><i class="fas fa-bars"></i> Important Links</h5>
+                           <div class="card-body">
+                                
+												 		<!-- LEFT SIDEBAR -->
+		<div id="sidebar-nav" class="sidebar">
+			  <nav class="sidenav1 shadow-right sidenav-light">
+                    <div class="sidenav-menu">
+                        <div class="nav accordion" id="accordionSidenav">
+						   
+                              <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseDashboards" aria-expanded="false" aria-controls="collapseDashboards"
+                                ><div class="nav-link-icon"><i class="fas fa-caret-square-right"></i></div>
+                                Chairman's Desk
+                                <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
+                            ></a>
+                            <div class="collapse" id="collapseDashboards" data-bs-parent="#accordionSidenav">
+                                <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPages">
+                                    <a class="nav-link" href="#">Link1</a>
+									<a class="nav-link" href="#">Link2</a>
+									<a class="nav-link" href="#">Link3</a>
+                                </nav>
+                            </div>
+							
+							
+                            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages"
+                                ><div class="nav-link-icon"><i class="fas fa-caret-square-right"></i></div>
+                                Taxpayer Assistance
+                                <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
+                            ></a>
+                            <div class="collapse" id="collapsePages" data-bs-parent="#accordionSidenav">
+                                <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPagesMenu">
+                                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth"
+                                        >Link4
+                                        <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
+                                    ></a>
+                                    <div class="collapse" id="pagesCollapseAuth" data-bs-parent="#accordionSidenavPagesMenu">
+                                        <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPagesAuth">
+                                            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthBasic" aria-expanded="false" aria-controls="pagesCollapseAuthBasic"
+                                                >Link5
+                                                <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
+                                            ></a>
+                                            <div class="collapse" id="pagesCollapseAuthBasic" data-bs-parent="#accordionSidenavPagesAuth">
+                                                <nav class="sidenav-menu-nested nav"><a class="nav-link" href="#">Link6</a><a class="nav-link" href="#">Register</a><a class="nav-link" href="#">Forgot Password</a></nav>
+                                            </div>
+                                            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthSocial" aria-expanded="false" aria-controls="pagesCollapseAuthSocial"
+                                                >Link7
+                                                <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
+                                            ></a>
+                                            <div class="collapse" id="pagesCollapseAuthSocial" data-bs-parent="#accordionSidenavPagesAuth">
+                                                <nav class="sidenav-menu-nested nav"><a class="nav-link" href="#">Link8</a><a class="nav-link" href="#">Register</a><a class="nav-link" href="#">Forgot Password</a></nav>
+                                            </div>
+                                        </nav>
+                                    </div>
+                                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError"
+                                        >Link9
+                                        <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
+                                    ></a>
+                                    <div class="collapse" id="pagesCollapseError" data-bs-parent="#accordionSidenavPagesMenu">
+                                        <nav class="sidenav-menu-nested nav"><a class="nav-link" href="#">Link10</a><a class="nav-link" href="#">404 Page</a><a class="nav-link" href="#">404 Page (Glitch Effect)</a><a class="nav-link" href="#">500 Page</a></nav>
+                                    </div>
+                                    <a class="nav-link" href="#">Link11</a>
+                                </nav>
+                            </div>
+							
+							<a class="nav-link" href="#"
+                                ><div class="nav-link-icon"><i class="fas fa-caret-square-right"></i></div>
+                                Departmental Officers</a>
+								
+								<a class="nav-link" href="#"
+                                ><div class="nav-link-icon"><i class="fas fa-caret-square-right"></i></div>
+                                Swachhata Action Plan</a>
+								
+								<a class="nav-link" href="#"
+                                ><div class="nav-link-icon"><i class="fas fa-caret-square-right"></i></div>
+                                Vigilance Awareness</a>
+								
+								<a class="nav-link" href="#"
+                                ><div class="nav-link-icon"><i class="fas fa-caret-square-right"></i></div>
+                                Indian AEO Programme</a>
+								
+								<a class="nav-link" href="#"
+                                ><div class="nav-link-icon"><i class="fas fa-caret-square-right"></i></div>
+                                Public Information</a>
+								
+								<a class="nav-link" href="#"
+                                ><div class="nav-link-icon"><i class="fas fa-caret-square-right"></i></div>
+                                Verify CBIC-DIN</a>
+								
+								<a class="nav-link" href="#"
+                                ><div class="nav-link-icon"><i class="fas fa-caret-square-right"></i></div>
+                                Legal Affairs</a>
+								
+								<a class="nav-link" href="#"
+                                ><div class="nav-link-icon"><i class="fas fa-caret-square-right"></i></div>
+                                CAAR</a>
+                       
+                     
+								
+                        </div>
+                    </div>
+                  
+                </nav>
+				   
+				   
+		
+		</div>
+		<!-- END LEFT SIDEBAR -->
+								
+                          </div>
+                        </div>
+				   </div>
+					
+									 
+			                       </div>
+									  
+								 </div>
+								 
+								 
+								 
+							<div class="col-md-9">
+								 
+								  <div class="row">
+								     <div class="col-md-12">
+								 
+								         <div class="acconew">
+								       
+                                              <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        
+		<div class="accordion-1" id="accordionExample1">
+		   <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne-1">
+               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne-1" aria-expanded="true" aria-controls="collapseOne-1">
+               Accordion Item #1
+              </button>
+              </h2>
+                <div id="collapseOne-1" class="accordion-collapse collapse show" aria-labelledby="headingOne-1" data-bs-parent="#accordionExample1">
+                <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+                </div>
+           </div>
+		   
+		   <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo-1">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo-1" class="accordion-collapse collapse" aria-labelledby="headingTwo-1" data-bs-parent="#accordionExample1">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+		   
+		 </div>
+		
+		
+		
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+
+                                         </div>
+
+                                     </div>
+                                  </div>
+ 
+							</div>
+								</div>
+                          </div>
+                        </div>
+                 
+                      </div>
+				
+                  </div>
+			
+			</div>
+			
+				 <!-- footer -->
+     
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-md-3 footer-info">
+            <h3>Bootstrap 5</h3>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+          </div>
+
+          <div class="col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fas fa-angle-right"></i> <a href="#">Home</a></li>
+              <li><i class="fas fa-angle-right"></i> <a href="#">About us</a></li>
+              <li><i class="fas fa-angle-right"></i> <a href="#">Services</a></li>
+              <li><i class="fas fa-angle-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="fas fa-angle-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-md-3 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+                <!--Footer Bottom-->
+
+                 <div class="container-fluid">
+					<div class="row">
+					   <div class="col-md-12 topFooterNav">
+                             <nav class="nav">
+                                   <a class="nav-link" href="#">Link</a>
+                                   <a class="nav-link" href="#">Link</a>
+                                   <a class="nav-link" href="#">Link</a>
+
+                             </nav>
+                        </div>
+		             </div>
+					
+                        <div class="row pt-1">
+						
+                            <div class="col-md-8">
+
+                                <div class="col-md-12">
+                                    <div class="d-block"><small>Last reviewed &amp; updated : 00-00-0000 | Visitors : 00000</small></div>
+									<div class="d-block"><small>Copyright © 2021 XYZ. All Rights Reserved.</small></div>
+                                </div>
+
+								
+                            </div>
+
+                            <div class="col-md-4 text-end">
+							
+                                  <span class="d-block"><small>Designed &amp; Developed by</small></span>
+							      <img src="img/brandLogo.png" alt="TATA Consultancy Services Ltd" title="TATA Consultancy Services Ltd">
+								  
+                             </div>
+
+                        </div>
+                    </div>
+        
+                <!-- footer bottom ends -->
+
+	
+  </footer>
+  <!-- End Footer -->
+          
+		
+    </div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up fa-1x"></i></button>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/mutilevel-menudropdown.js"></script>
+	<script src="js/mega-dropdown-menu.js"></script>
+	<script src="js/hover-dropdown-menu.js"></script>
+	<script src="js/jquery.flexisel.js"></script>
+	
+<!-- flexisel  -->
+<script type="text/javascript">
+$(document).ready(function() {
+      
+    $("#flexiselDemo3").flexisel({
+        visibleItems: 4,
+        itemsToScroll: 1,         
+        autoPlay: {
+            enable: true,
+            interval: 5000,
+            pauseOnHover: true
+        }        
+    });
+ });
+</script>
+<!-- End flexisel  -->
+
+
+<!-- start back to top script -->
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<!-- end back to top script -->
+
+
+
+</body>
+
+</html>
